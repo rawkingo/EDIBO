@@ -1,0 +1,33 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  nano mans_pirmais_skripts.sh
+    5  ls -l
+    6  chmod 744 mans_pirmais_skripts.sh
+    7  ls -l
+    8  cd EDIBO
+    9  ls -l
+   10  ~/EDIBO
+   11  ./mans_pirmais_skripts.sh
+   12  cd ABC
+   13  ls -lt
+   14  cd >>
+   15  cd ..
+   16  lt
+   17  ls
+   18  cd DEF
+   19  ./mans_pirmais_skripts.sh
+   20  ls -lt
+   21  chmod 744 mans_pirmais_skripts.sh
+   22  ls -lt
+   23  nano mans_pirmais_skripts.sh
+   24  cd ABC
+   25  cD ..
+   26  cd ..
+   27  ls -lt
+   28  nano mans_pirmais_skripts.sh
+   29  wd
+   30  pwd
+   31  nano mans_pirmais_skripts.sh
+   32  history
+   33  history > history_20200807d.txt
