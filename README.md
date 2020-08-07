@@ -19,5 +19,15 @@ Tab - Continue a command
 PS1="$ " - Rename first line in Shell for $
 > It will not be written with a full name of PC, for example "user@333k-34:~$"
 
-echo - First command to show  
-> echo Hello World
+echo - First command to show (tell me)  
+echo Hello World - Shows a text "Hello world"
+echo $a - Shows what is a=?  
+echo $(($a+$b)) - Summing  
+echo $0 - Shows a name of a console  
+pwd - Shows where are we
+cd - Change directory
+ls - List directory contents
+ls -l - List of directories with a time
+ls -a - Show all, include hidden.
+
+
