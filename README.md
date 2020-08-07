@@ -7,7 +7,7 @@ EDIBO projekta elektroniskā klāde
 - Git (basics)
 - ASII table
 
-#### 1. Terminal (hot-keys)
+#### Terminal (hot-keys)
 Ctrl+Alt+T - open **Terminal**  
 Ctrl+Shift+T - open a new tab in **Terminal**  
 Ctrl+Shift+Q or ALT+F4 - close **Terminal**  
@@ -16,7 +16,7 @@ Ctrl - - Zoom Out **Terminal**
 Arrow Up and Arrow Down - List last commands  
 Tab - Continue a command  
 
-#### 2. Shell (basics)
+#### Shell (basics)
 PS1="$ " - Rename first line in Shell for $
 > It will not be written with a full name of PC, for example "user@333k-34:~$"
 
@@ -44,9 +44,6 @@ who - Shows when PC was enabled
 last - We can see who is close  
 tree - Shows all directory content
 
-#### 3. Git (basics)
-
-
-#### 4. ASCII Table
+#### ASCII Table
 
 [ASCII table](http://www.ecowin.org/ascii.htm)
