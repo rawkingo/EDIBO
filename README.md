@@ -24,10 +24,23 @@ echo Hello World - Shows a text "Hello world"
 echo $a - Shows what is a=?  
 echo $(($a+$b)) - Summing  
 echo $0 - Shows a name of a console  
-pwd - Shows where are we
-cd - Change directory
-ls - List directory contents
-ls -l - List of directories with a time
-ls -a - Show all, include hidden.
+pwd - Shows where are we  
+cd "name" - Change directory  
+cd .. - Change directory going upper
+cd /home - Change directory "home"  
+ls - List directory contents  
+ls -l - List of directories with a time  
+ls -a - Show all, include hidden  
+ls -lt - List of directories with a last update
+mkdir - Make a new directory  
+rmdir - Remove a directory  
+cat, tail, less, more - Shows a.txt (if made)  
+date - Shows a time  
+cal - Shows a calendar
+sh - Another shell (not bash now)  
+whoami - Command shows us who are we now  
+who - Shows when PC was enabled  
+last - We can see who is close  
+
 
 
