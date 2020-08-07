@@ -6,7 +6,9 @@ EDIBO projekta elektroniskā klāde
 - Shell (basics)
 - Git (basics)
 
-#### Tests
-Teksts1
-Teksts2  
-Teksts3
+#### 1. Terminal (hot-keys)
+Ctrl+Alt+T - open **Terminal**  
+Ctrl+Shift+T - open a new tab in **Terminal**  
+Ctrl+Shift+Q or ALT+F4 - close **Terminal**  
+Ctrl + - Zoom In **Terminal**  
+Ctrl - - Zoom Out **Terminal**  
