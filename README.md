@@ -41,6 +41,9 @@ sh - Another shell (not bash now)
 whoami - Command shows us who are we now  
 who - Shows when PC was enabled  
 last - We can see who is close  
+tree - Shows all directory content
+
+#### 3. Git (basics)
 
 
 
