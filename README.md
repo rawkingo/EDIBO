@@ -5,7 +5,7 @@ EDIBO projekta elektroniskā klāde
 - Terminal (hot-keys)
 - Shell (basics)
 - Git (basics)
-- ASII table
+- ASCII table
 
 #### Terminal (hot-keys)
 Ctrl+Alt+T - open **Terminal**  
