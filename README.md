@@ -5,6 +5,7 @@ EDIBO projekta elektroniskā klāde
 - Terminal (hot-keys)
 - Shell (basics)
 - Git (basics)
+- ASII table
 
 #### 1. Terminal (hot-keys)
 Ctrl+Alt+T - open **Terminal**  
@@ -46,4 +47,6 @@ tree - Shows all directory content
 #### 3. Git (basics)
 
 
+#### 4. ASCII Table
 
+[ASCII table](http://www.ecowin.org/ascii.htm)
