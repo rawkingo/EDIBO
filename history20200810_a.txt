@@ -1,0 +1,103 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ps
+    4  ps a
+    5  kill 4272
+    6  ps a
+    7  ps -a
+    8  PS1="$ "
+    9  cal
+   10  man cal
+   11  cal J
+   12  cal 0
+   13  cal j
+   14  man cal
+   15  cal -j
+   16  cal -J
+   17  cal 1
+   18  date
+   19  date 0
+   20  date 1
+   21  man date
+   22  man cal
+   23  man calendar
+   24  man cal
+   25  man time
+   26  delay
+   27  d
+   28  c++
+   29  ls 
+   30  who
+   31  whoami
+   32  whois
+   33  who
+   34  w
+   35  ps
+   36  ps a
+   37  kill 959
+   38  man kill
+   39  man date
+   40  hoswe
+   41  man date
+   42  man bash
+   43  ps axu
+   44  echo $home
+   45  echo $HOME
+   46  echo $USER
+   47  echo $stas
+   48  echo $STAS
+   49  echo pwd
+   50  echo 'pwd'
+   51  echo "pwd"
+   52  echo $(pwd)
+   53  echo $pwd
+   54  echo $PWD
+   55  echo `pwd`
+   56  echo ~pwd~
+   57  echo $(1+1)
+   58  printenv 
+   59  printenv $pw
+   60  printenv 
+   61  printenv
+   62  printenv |less
+   63  cd `echo $HOME`
+   64  pwd
+   65  cd `echo $HOME`
+   66  cd EIDBO
+   67  pwd
+   68  cd echo `$HOME`
+   69  cd `echo $HOME`
+   70  cd ..
+   71  pwd
+   72  cd `echo $HOME`
+   73  pwd
+   74  cd ..
+   75  pwd
+   76  cd -
+   77  cd /
+   78  cd -
+   79  cd --
+   80  pwd
+   81  cd ---
+   82  cd -
+   83  cd --
+   84  pwd
+   85  cd -
+   86  printenv 
+   87  printenv |less
+   88  printenv | less
+   89  for i in a b c; do echo $i; done
+   90  for i in a b c; do echo i:$i; done
+   91  for a in b c d; do echo $a; done
+   92  for a in b c d; do echo a; done
+   93  for a in b c d; do echo $a; done
+   94  for a in b c d; do echo $a;  for a in b c d; do echo $a;  for a in b c d; do echo $a; done; 2; pwd; history
+   95  git clone https://github.com/rawkingo/EDIBO
+   96  ./git-upload
+   97  ls -l
+   98  cd EDIBO/
+   99  ll
+  100  cd ..
+  101  mv git-upload
+  102  cd EDIBO
+  103  history > history20200810_a.txt
