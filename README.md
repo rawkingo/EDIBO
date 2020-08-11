@@ -63,7 +63,7 @@ tree - Shows all directory content
 NAME="Zara Ali"  
 echo $NAME  
 
-RESULT:
+_**RESULT:
 
 >Zara Ali  
 ---------------------------------  
@@ -75,7 +75,7 @@ NAME="Zara Ali"
 readonly NAME  
 NAME="Qadiri"  
 
-RESULT:
+_**RESULT
 
 >NAME: readonly variable  
 ---------------------------------  
@@ -90,7 +90,8 @@ echo "Quoted Values: $@"
 echo "Quoted Values: $*"  
 echo "Total Number of Parameters : $#"  
 
-RESULT:
+_**RESULT:
+
 > ./test_variables_3.sh Stas Kursish  
 File Name : ./test_variables_3.sh  
 First Parameter : Stas  
@@ -113,9 +114,10 @@ NAME[4]="Juljchik"
 echo "First Index: ${NAME[*]}"  
 echo "Second Index: ${NAME[@]}"  
 
-RESULT:
->First Index: Vitjok Mashka Zajchik343 Popka Juljchik
-Second Index: Vitjok Mashka Zajchik343 Popka Juljchik
+_**RESULT:
+
+>First Index: Vitjok Mashka Zajchik343 Popka Juljchik  
+Second Index: Vitjok Mashka Zajchik343 Popka Juljchik  
 --------------------------------
 
 
