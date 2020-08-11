@@ -47,3 +47,71 @@ tree - Shows all directory content
 #### ASCII Table
 
 [ASCII table](http://www.ecowin.org/ascii.htm)
+
+## Day 04  
+
+### Topics:  
+
+- Darbs ar mainīgājiem  
+- Darbs ar speciāliem mainīgājiem  
+- Darbs ar mainīgo masīvu  
+
+#### Darbs ar mainīgājiem  
+
+#!/bin/bash  
+
+NAME="Zara Ali"  
+echo $NAME  
+
+Will give a result --->
+
+Zara Ali  
+---------------------------------  
+Making a read-only:  
+
+#!/bin/bash  
+
+NAME="Zara Ali"  
+readonly NAME  
+NAME="Qadiri"  
+
+Will give a result --->
+
+NAME: readonly variable  
+---------------------------------  
+#### Darbs ar speciāliem mainīgājiem  
+
+#!/bin/bash
+
+echo "File Name: $0"
+echo "First Parameter : $1"
+echo "Second Parameter : $2"
+echo "Quoted Values: $@"
+echo "Quoted Values: $*"
+echo "Total Number of Parameters : $#"
+
+> ./test_variables_3.sh Stas Kursish  
+File Name : ./test_variables_3.sh  
+First Parameter : Stas  
+Second Parameter : Kursish  
+Quoted Values: Stas Kursish  
+Quoted Values: Stas Kursish  
+Total Number of Parameters : 2 
+
+---------------------------------  
+  
+#### Darbs ar mainīgo masīvu
+
+#!/bin/sh
+
+NAME[0]="Vitjok"  
+NAME[1]="Mashka"  
+NAME[2]="Zajchik343"  
+NAME[3]="Popka"  
+NAME[4]="Juljchik"  
+echo "First Index: ${NAME[*]}"  
+echo "Second Index: ${NAME[@]}"  
+
+
+
+
