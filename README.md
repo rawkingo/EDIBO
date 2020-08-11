@@ -143,4 +143,9 @@ echo $[ $c != $b ]  would return true (1)
 -ge - first operand is greater or equal to second [ $a -ge $b ] - is not true  
 -le - first operand is less or equal to second [ $a -le $b ] - is true  
 
+#### Boolean Operators
+
+! - logical negation. This inverts a true condition into false [ !false ] - is true  
+-o - this is logical **OR**. If one of the operands is true, than the condition becomes true [ $a -lt 20 -o $b -gt 100] is true  
+
 
