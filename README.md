@@ -147,5 +147,6 @@ echo $[ $c != $b ]  would return true (1)
 
 ! - logical negation. This inverts a true condition into false [ !false ] - is true  
 -o - this is logical **OR**. If one of the operands is true, than the condition becomes true [ $a -lt 20 -o $b -gt 100] is true  
+-a - this is logical **AND**. If both the operands, then the condition becomes true otherwise false [ $a -lt 20 -a $b -gt 100] is false  
 
 
