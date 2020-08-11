@@ -114,7 +114,7 @@ NAME[4]="Juljchik"
 echo "First Index: ${NAME[*]}"  
 echo "Second Index: ${NAME[@]}"  
 
-_RESULT:
+_ RESULT:
 
 >First Index: Vitjok Mashka Zajchik343 Popka Juljchik  
 Second Index: Vitjok Mashka Zajchik343 Popka Juljchik  
