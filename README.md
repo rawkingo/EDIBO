@@ -63,7 +63,7 @@ tree - Shows all directory content
 NAME="Zara Ali"  
 echo $NAME  
 
-_RESULT:
+#### RESULT:
 
 >Zara Ali  
 ---------------------------------  
@@ -75,7 +75,7 @@ NAME="Zara Ali"
 readonly NAME  
 NAME="Qadiri"  
 
-_RESULT
+#### RESULT:
 
 >NAME: readonly variable  
 ---------------------------------  
@@ -90,7 +90,7 @@ echo "Quoted Values: $@"
 echo "Quoted Values: $*"  
 echo "Total Number of Parameters : $#"  
 
-_RESULT:
+#### RESULT:
 
 > ./test_variables_3.sh Stas Kursish  
 File Name : ./test_variables_3.sh  
