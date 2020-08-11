@@ -63,9 +63,9 @@ tree - Shows all directory content
 NAME="Zara Ali"  
 echo $NAME  
 
-Will give a result --->
+RESULT:
 
-Zara Ali  
+>Zara Ali  
 ---------------------------------  
 Making a read-only:  
 
@@ -75,9 +75,9 @@ NAME="Zara Ali"
 readonly NAME  
 NAME="Qadiri"  
 
-Will give a result --->
+RESULT:
 
-NAME: readonly variable  
+>NAME: readonly variable  
 ---------------------------------  
 #### Darbs ar speciāliem mainīgājiem  
 
@@ -103,7 +103,7 @@ Total Number of Parameters : 2
   
 #### Darbs ar mainīgo masīvu
 
-#!/bin/sh
+#!/bin/bash
 
 NAME[0]="Vitjok"  
 NAME[1]="Mashka"  
@@ -113,6 +113,10 @@ NAME[4]="Juljchik"
 echo "First Index: ${NAME[*]}"  
 echo "Second Index: ${NAME[@]}"  
 
+RESULT:
+>First Index: Vitjok Mashka Zajchik343 Popka Juljchik
+Second Index: Vitjok Mashka Zajchik343 Popka Juljchik
+--------------------------------
 
 
 
