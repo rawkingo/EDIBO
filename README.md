@@ -54,7 +54,10 @@ tree - Shows all directory content
 
 - Darbs ar mainīgājiem  
 - Darbs ar speciāliem mainīgājiem  
-- Darbs ar mainīgo masīvu  
+- Darbs ar mainīgo masīvu
+- Darbs ar operācijām
+- Darbs ar nosacījumu operatoru
+- Darbs ar cikliem  
 
 #### Darbs ar mainīgājiem  
 
@@ -91,7 +94,6 @@ echo "Quoted Values: $*"
 echo "Total Number of Parameters : $#"  
 
 #### RESULT:
-
 > ./test_variables_3.sh Stas Kursish  
 File Name : ./test_variables_3.sh  
 First Parameter : Stas  
@@ -115,10 +117,30 @@ echo "First Index: ${NAME[*]}"
 echo "Second Index: ${NAME[@]}"  
 
 #### RESULT:
-
->First Index: Vitjok Mashka Zajchik343 Popka Juljchik  
-Second Index: Vitjok Mashka Zajchik343 Popka Juljchik  
+>First Index: Vitjok Mashka Zajchik343 Popka Juljchik
+Second Index: Vitjok Mashka Zajchik343 Popka Juljchik
 --------------------------------
 
+#### Darbs ar operācijām
+
+#### Arithmetic Operators
+
+a=10  
+b=20  
+c=10  
+
+echo $[ $a == $b ]  would return false (0)  
+echo $[ $c != $a ]  would return false (0)  
+echo $[ $a == $c ]  would return true (1)  
+echo $[ $c != $b ]  would return true (1)  
+
+#### Relational Operators
+
+-eq - equal or not [ $a -eq $b ] - is not true  
+-ne - not equal or is [ $a -ne $b ] - is true  
+-gt - is one greater or is not [ $a -gt $b ] - is not true  
+-lt - first operand is less than second [ $a -lt $b ] - is true  
+-ge - first operand is greater or equal to second [ $a -ge $b ] - is not true  
+-le - first operand is less or equal to second [ $a -le $b ] - is true  
 
 
