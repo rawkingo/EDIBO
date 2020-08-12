@@ -1,0 +1,233 @@
+ 1/1: vars()
+ 1/2: a=10
+ 1/3: a
+ 1/4: type(a)
+ 1/5: dir(a)
+ 1/6: print (hello world)
+ 1/7: print (1+1)
+ 1/8: print Hello
+ 1/9: print(Hello)
+1/10: a=hello world
+1/11: a="hello world"
+1/12: print(a)
+ 2/1: pwd
+ 2/2: ls
+ 2/3: cd
+ 2/4: cd
+ 2/5: cd/EDIBO
+ 2/6: pwd
+ 2/7: cd /EDIBO
+ 2/8: cd EDIBO
+ 2/9: cd EDIBO
+2/10: clear
+2/11: ls -a
+ 3/1: pwd
+ 3/2: ls
+ 3/3: more second_python_script_like_executable.py
+ 3/4: /pfing
+ 3/5: /print
+ 3/6: less second_python_script_like_executable.py
+ 3/7: a = 11
+ 3/8: b = 5
+ 3/9: a + b
+3/10: a/b
+3/11: a%b
+3/12: 2**10000
+3/13: time 2**10000
+3/14: nano python_time.py
+ 4/1: a=100
+ 4/2: print(a)
+ 4/3: print(Hello)
+ 4/4: print (Hello)
+ 4/5: print "Hello"
+ 4/6: print (Hello)
+ 4/7: nano python_time.py
+ 4/8: if (11 == 11): print("YES")
+ 4/9: if (11 == 11): print("fkoff")
+4/10:
+if (11 == 11): 
+    print("Vienādi")
+4/11:
+if (11 == 11): 
+    print("Vienādi")
+4/12:
+if (11 == 11): 
+    print("Vienādi")
+    else:
+4/13:
+if (11 == 11): 
+    print("Vienādi")
+else:
+    print("Nevienādi")
+4/14:
+if (12 == 11): 
+    print("Vienādi")
+else:
+    print("Nevienādi")
+4/15: history
+4/16: pwd
+4/17: history > history_20200812a.txt
+4/18: ls
+4/19: %save
+4/20: %save history
+4/21: %save history > history.txt
+4/22: help %save
+4/23: help save
+4/24: help(%save)
+4/25: %history -g -f myhistory.dat
+4/26: cat myhistory.dat
+4/27:
+if (12 < 11): 
+    print("False")
+else:
+    print("True")
+4/28:
+if (12 > 11): 
+    print("False")
+elif:
+    print("True")
+4/29:
+if (12 > 11): 
+    print("False")
+elif (-3 > 4):
+    print("True")
+4/30:
+if (12 > 11): 
+    print("True")
+elif (-3 > 4):
+    print("False")
+4/31:
+if (12 > 11): 
+    print("True")
+elif (-3 > 4):
+    print("False")
+else:
+    print("Final")
+4/32:
+if (12 > 11): 
+    print("false")
+elif (-3 > 4):
+    print("True")
+else:
+    print("Final")
+4/33:
+if (12 > 11): 
+    print("false")
+elif (-3 == 4):
+    print("True")
+else:
+    print("Final")
+4/34:
+if (12 < 11): 
+    print("false")
+elif (-3 == 4):
+    print("True")
+else:
+    print("Final")
+4/35: type(55)
+4/36: type("55")
+4/37: 11 < 22
+4/38: bin(7)
+4/39:
+n = int(input())
+
+b = ''
+
+while n > 0:
+    b = str(n % 2) + b
+    n = n // 2
+
+print(b)
+   1: for i in "a": print(a)
+   2: for i in "a": print(a)
+   3: a=77
+   4: for i in "a": print(a)
+   5: for i in "EDIBO": print(a)
+   6: for i in "EDIBO": print(i)
+   7: for a in "EDIBO": print(a)
+   8: for a in 7: print(a)
+   9:
+for k in "EDIBO":
+    print(k)
+    print(k)
+  10:
+for k in "1234":
+    print(k)
+    print(k)
+  11:
+for i in range(10):
+    print(i)
+  12:
+for i in range(3,15):
+    print(i)
+  13:
+for i in range(3,15,2):
+    print(i)
+  14:
+for i in range(3,15,5):
+    print(i)
+  15:
+for i in range(3,15,5):
+    print(i, i)
+  16:
+for i in range(3,15,5):
+    print(i),
+  17:
+for i in range(3,15,5):
+    (print(i)),
+  18: a=77
+  19: b='55'
+  20: print ("N = %d; S = %s" % (a))
+  21: print ("N = %d; S = %s" % (a,B))
+  22: print ("N = %d; S = %s" % (a,b))
+  23: b = "privet"
+  24: print ("N = %d; S = %s" % (a,b))
+  25: print ("N = %d; S = %s" (a,b))
+  26: print ("N = %d; S = %s" % (a,b))
+  27: print ("N = %s; S = %s" % (a,b))
+  28: print ("N = %a; S = %s" % (a,b))
+  29: print ("N = %a; S = %s" % (b,a))
+  30: print ("N = %a; S = %a" % (b,a))
+  31: print ("N = %a; S = %a" % (b,a,a))
+  32: print ("N = %a; S = %a; B = %a" % (b,a,a))
+  33:
+n = int(input())
+
+b = ''
+
+while n > 0:
+    b = str(n % 2) + b
+    n = n // 2
+
+print(b)
+  34:
+n = int(input())
+
+b = ''
+
+while n > 0:
+    b = str(n % 2) + b
+    n = n // 2
+
+print(b)
+  35:
+n = int(input())
+
+b = ''
+
+while n > 0:
+    b = str(n % 2) + b
+    n = n / 2
+
+print(b)
+  36:
+a = int(input())
+
+b = ''
+
+while a > 0:
+    b = str(a % 2) + b
+    a = a // 2
+
+print(b)
+  37: %history -g -f pithonhistory.txt
