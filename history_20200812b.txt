@@ -1,0 +1,39 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  PS1="$ "
+    4  git clone https://github.com/rawkingo/EDIBO
+    5  ls -lt
+    6  cd EDIBO
+    7  ls
+    8  cd SHELL
+    9  ls -lt
+   10  cd ..
+   11  pwd
+   12  test.sh
+   13  ./test sh 12
+   14  ./test sh
+   15  ./test.sh 12
+   16  ./test.sh
+   17  git clone https://github.com/rawkingo/FIBONACHINUMBERS
+   18  pwd
+   19  ls
+   20  cd FIBONACHINUMBERS/
+   21  pwd
+   22  ls
+   23  cd ..
+   24  cd /home/user/EDIBO/SHELL
+   25  pwd
+   26  nano dec_to_bin.txt
+   27  cd EDIBO
+   28  cd ..
+   29  mkdir Python
+   30  pwd
+   31  ls
+   32  cd Python
+   33  pwd
+   34  nano README.md
+   35  cd EDIBO
+   36  pwd
+   37  cd ..
+   38  history
+   39  history > history_20200812b.txt
