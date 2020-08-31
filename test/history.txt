@@ -1,0 +1,29 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  PS1="$ "
+    4  whereis mysql
+    5  mysql
+    6  msql -u user
+    7  mysql -u user
+    8  mysql -u user -p
+    9  history
+   10  history > history.txt
+   11  ls
+   12  git clone https://github.com/rawkingo/EDIBO
+   13  ls
+   14  cd EDIBO/
+   15  pwd
+   16  ls
+   17  nano git-upload
+   18  git-upload
+   19  /git-upload
+   20  mkdir test
+   21  pwd
+   22  ls
+   23  git-upload > test
+   24  mv git-upload
+   25  mv git-upload test
+   26  ls
+   27  cd test
+   28  ls
+   29  history > history.txt

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+git config --global user.email stas@kursish.com
+git add .
+git commit -m "20200831_14_40"
+git push origin master
+
